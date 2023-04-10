@@ -1,0 +1,371 @@
+body{
+    font-family:"Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+    width:1600px ;
+  height: 2349px;  
+}
+
+.web-color{
+    color: #2196F3;
+
+}
+.studio{
+    color:#000000;
+
+}
+.webstudio{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+   width: 145px;
+   
+   left: 215px;
+   top: 24px;
+  
+}
+.border{
+    border-bottom: 1px solid #ECECEC ;
+    
+}
+.navigation-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+} 
+.studio-color{
+    color: #FFFFFF;
+}
+
+a:hover {
+    color:#2196F3
+ }
+a{
+    color:unset;
+    text-decoration: none;
+}
+.main-header{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    top: 80px;
+    padding:  200px 452px 280px 452px;
+    text-align: center;
+}
+h1{
+    margin:0 auto;
+    width: 696px;
+    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.contact-information-header{
+    color:#757575; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+   
+    
+}
+.order-the-service{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+.description{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 94px;
+    margin-right: 30px;
+}
+/* Prawy  margines na stronie dla ostatniego elementu */
+
+.margin{
+margin-right: 0px;
+}
+
+.team-description{
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575; 
+    margin-top: 0;
+    margin-right: 61px;
+    margin-bottom: 30px;
+    margin-left: 62px;
+
+
+
+}
+.header-paragraph{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+.header-secondary{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0 ;
+    margin-bottom: 50px;
+
+
+}
+ .footer{
+ background-color:  #2F303A;
+ 
+
+}
+.address-style{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-bottom: 9px;
+    
+}
+.webstudio-footer{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    padding-top: 60px;
+    margin-bottom:20px;
+    margin-top: 0px;
+    letter-spacing: 0.03em;
+
+    
+}
+.our-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 50px;
+
+}
+.portfolio-button{
+    
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    background: #F5F4FA;
+    border-radius: 4px; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding:6px 22px 6px 22px ;
+    border: #2196F3;
+    
+    
+
+}
+  .portfolio-button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+
+}
+.portfolio-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.projects-header{
+    margin-bottom: 4px;
+    margin-top: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px
+    
+    
+    
+   
+    
+}
+.names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 99px;
+    margin-left:99px;
+
+}
+.project-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    padding:0px 24px 20px 24px;
+    margin: 0;
+    letter-spacing: 0.03em;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.nav-header{
+    display: flex;
+    margin-left: 93px;
+    margin-top:32px;
+    margin-bottom: 32px;
+    margin-right: 371px;
+    letter-spacing: 0.02em;
+    padding-left: 0;
+}
+.link-agency {
+padding-right: 46px;
+}
+.link-portfolio{
+    padding-right: 46px;
+}
+
+.email{
+margin-right: 50px;
+letter-spacing: 0.02em;
+}
+
+.section-description-flex{
+    display: flex;
+    padding-top: 94px;
+    padding-left: 0;
+   
+
+}
+
+.section-what-we-do{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    padding-left: 0px;
+}
+.what-we-do-images{
+
+    margin-right: 30px;
+    width: 370px;
+    height: 294px;
+}
+.our-team-background{
+   background: #F5F4FA; 
+}
+.section-our-team{
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 94px;
+    
+}
+.our-team-images{
+   margin-right: 30px;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+
+}
+.buttons-section-portfolio{
+    display: flex;
+    gap: 8px;
+    margin-left: 510px;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 518px;
+    padding-left: 0px;
+    width: 572px;
+    height:54px; 
+    letter-spacing: 0.03em;
+    text-align: center;
+    
+    
+}
+
+
+.portfolio-list-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px ;
+    padding: 0;
+    flex-basis: calc((100% - 30px) / 3);
+    margin:0;
+    
+    
+    
+    
+}
+.projects-style{
+    border-left:  1px solid #EEEEEE;
+    border-right:  1px solid #EEEEEE ;
+    border-bottom: 1px solid #EEEEEE;
+    
+
+    
+    
+}
+
+.portfolio{
+
+    margin-bottom: 94px;
+    margin-left:215px ;
+    margin-right: 215px;
+    padding: 0;
+}
+.tel-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding-bottom: 60px;
+    
+   
+    }
+    .email-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding-bottom: 9px;
+    }
+    .contacts-footer-style{
+        padding-left: 0px;
+    }
