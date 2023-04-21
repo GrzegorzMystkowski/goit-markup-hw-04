@@ -2,8 +2,7 @@
 body{
 font-family:"Roboto", sans-serif;
 background-color: #FFFFFF;
-width:1600px ;
-height: 2349px;  
+width:1600px;
 }
 
 
@@ -35,7 +34,66 @@ list-style-type: none;
 /* STYLE GLOBALNE STRONY */
 
 
-/* NAWIGACJA STRONY */
+/* DANE KONTAKTOWE NA STRONIE */
+.email{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+margin-right: 30px;
+}
+    
+    
+.tel{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+    
+    
+.tel-footer{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF99;
+padding-bottom: 60px;
+}
+        
+        
+.email-footer{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF99;
+padding-bottom: 9px;
+} 
+
+
+.footer{
+background-color: #2F303A;
+}
+
+
+.address-style{
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+letter-spacing: 0.03em;
+padding-bottom: 9px;
+}
+
+
+.contacts-footer-style{
+padding-left: 0px;
+}
+/* DANE KONTAKTOWE NA STRONIE */
+
+
 .web-color{
 color: #2196F3;
 }
@@ -125,7 +183,7 @@ margin-right: 30px;
 .margin{
 margin-right: 0px;
 }
-
+/* Prawy margines na stronie dla ostatniego elementu */
 
 .team-description{ 
 font-size: 16px;
@@ -147,9 +205,6 @@ margin: auto;
 }
 
 
-
-
-
 .header-secondary{
 font-weight: 700;
 font-size: 36px;
@@ -159,20 +214,6 @@ text-align: center;
 color: #212121;
 margin-top: 0;
 margin-bottom: 50px;
-}
-
-
-.footer{
-background-color: #2F303A;
-}
-
-
-.address-style{
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;
-letter-spacing: 0.03em;
-padding-bottom: 9px;
 }
 
 
@@ -285,45 +326,6 @@ padding-right: 46px;
 padding-right: 46px;
 }
 
-/* DANE KONTAKTOWE NA STRONIE */
-.email{
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
-margin-right: 30px;
-}
-
-
-.tel{
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
-
-.tel-footer{
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-color: #FFFFFF99;
-padding-bottom: 60px;
-}
-    
-    
-.email-footer{
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-color: #FFFFFF99;
-padding-bottom: 9px;
-} 
-
 
 .section-description-flex{
 padding-top: 94px;
@@ -358,7 +360,6 @@ text-align: center;
 margin-top: 0px;
 padding-left: 0px;
 margin-bottom: 94px;
-
 display: flex;
 }
 
@@ -409,12 +410,7 @@ margin-right: 215px;
 padding: 0;
 }
 
-
-.contacts-footer-style{
-padding-left: 0px;
-}
-
-
+/* STYLE IKON SVG */
 .header-svg{
 fill: currentColor;
 margin-right: 10px;
@@ -422,4 +418,33 @@ transform:translateY(0.1em);
 }
 
 
+.svg-our-strengths{
+background: #F5F4FA;
+border-radius: 4px;
+width:270px;
+height:120px;
+padding:25px 100px 25px 100px;
+margin:0 30px 30px 0;
+}
 
+
+.astronaut-svg{
+background: #F5F4FA;
+border-radius: 4px;
+width:270px;
+height:120px;
+padding:25px 100px 25px 100px;
+margin-bottom:30px;
+}
+
+
+.icon{
+fill: #757575;
+transform:translateY(0.1em);
+}
+
+
+.icon:hover {
+fill: #03a9f4;
+}
+/* STYLE IKON SVG */
